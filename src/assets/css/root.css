@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('./lg.css');
+@import url('./md.css');
+@import url('./sm.css');
+
+:root,
+[app-theme=light] {
+    --background-color: #fafafb;
+    --panel-background-color: #ffffff;
+    --label-color: #6f6f6f;
+    --value-color: #151515;
+    --scroll-bar-background-color: #e1e1e1;
+    --scroll-bar-thumb-color: #a7a7a7;
+    --primary-color: #52cc99;
+    --primary-text: #52cc99;
+    --banner-color: #f2f2f2;
+    --close-button: #ffffff;
+    --banking-banner: #6285f7;
+    --nav-background-color: #f3f7fa;
+    --bs-btn-bg: #5a74d8 !important;
+    /* --bs-success-rgb: #52cc99 !important; */
+    /* --nav-background: #2e0054; */
+}
+
+[app-theme=dark] {
+    --background-color: #121212;
+    --panel-background-color: #1d1d1d;
+    --label-color: #a7a7a7;
+    --value-color: #e1e1e1;
+    --primary-color: #1d1d1d;
+    --banner-color: #121212;
+    --close-button: #a7a7a7;
+    --primary-text: #a7a7a7;
+    --banking-banner: #1d1d1d;
+    --nav-background-color: #1d1d1d;
+    /* --nav-background: #1d1d1d; */
+}
+
+
+
+::-webkit-scrollbar {
+    width: .25em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--scroll-bar-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-bar-thumb-color);
+    border-radius: 10px;
+}
+
+
+body {
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.panel {
+    background-color: var(--panel-background-color);
+}
+
+.label {
+    color: var(--label-color) !important;
+}
+
+.value {
+    color: var(--value-color) !important;
+}
+
+.primary-text {
+    color: var(--primary-text);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.form-control:valid+.invalid-feedback {
+    display: none !important;
+}
+
+.apexcharts-title-text {
+    color: var(--value-color) !important;
+}
+
+
+.nav-tabs .nav-link {
+    color: var(--primary-text);
+}
+
+.modal-title {
+    font-size: 1.1rem;
+}
+
+
+.object-content .object-key-val {
+    font-size: 0.75rem;
+}
+
+.button-hover-effect:hover {
+    transform: scale(1.3);
+}
+
+h1,
+h2,
+.h1,
+.h1,
+.fw-bold,
+th {
+    font-weight: 600 !important;
+}
+
+.bg-body-tertiary {
+    font-size: 0.85rem;
+}
+
+
+
+/* bootstarp color changes */
+
+.bg-success {
+    background-color: #52cc99 !important;
+}
+
+.bg-info {
+    background-color: #6e83e8 !important;
+}
+
+.bg-danger {
+    background-color: #bf635f !important;
+}
+
+
+.bg-primary {
+    background-color: #5a74d8 !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #5a74d8 !important;
+    --bs-btn-border-color: #5a74d8 !important;
+}
+
+.btn-success {
+    background-color: #52cc99 !important;
+    border: none !important;
+}
+
+.text-success {
+    color: #52cc99 !important;
+}
+
+.rjsf button.btn.btn-info {
+    position: sticky !important;
+    margin-top: 10px;
+    float: right;
+    color: #ffffff;
+    background-color: #52cc99;
+}
+
+/* bootstarp color changes */
+
+
+
+/* Responsive Table */
+
+@media (max-width:767px) {
+
+  
+}
+
+
+
+p.placeholder-wave {
+    background-color: #e1e1e1;
+}
+
+.rdt_TableHeader {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.files-ui-file-mosaic-main-container .files-ui-file-mosaic-icon-layer-container {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.files-ui-file-mosaic-main-container .files-ui-file-mosaic-file-name {
+    font-size: 0.80rem !important;
+}
+
+.files-ui-header > :not(:first-child) { display: none !important; }
+.files-ui-header > :is(:last-child) { display: block !important; }
+
+
+.placeholder-wave{
+    background-color: #f0f0f0 !important;
+}

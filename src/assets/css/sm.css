@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    .dropdown-menu.show {
+        margin-left: 0px !important;
+    }
+
+    .para {
+        width: 100% !important;
+    }
+
+    .page {
+        background-color: var(--background-color);
+        overflow-y: auto;
+        height: 100svh;
+        width: 100svw;
+    }
+}

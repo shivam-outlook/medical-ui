@@ -1,0 +1,59 @@
+@import '../../assets/css/root.css';
+
+button:focus:not(:focus-visible) {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    border: 0px !important;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    padding: 5px !important;
+}
+
+.login-button {
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    padding: 3px 10px;
+    text-align: center;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-button:hover {
+    color: white;
+}
+
+.admin-suite {
+    color: #52cc99;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.offcanvas {
+    background-color: var(--background-color);
+    color: var(--value-color);
+    --bs-btn-close-color: #fff;
+}
+
+.offcanvas .btn-close {
+    background-color: var(--close-button);
+}
+
+.out-nav {
+    /* background-color: #ffffff !important; */
+    background-color: transparent;
+    opacity: 0.8;
+}

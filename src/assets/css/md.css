@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px) {
+    .dropdown-menu.show {
+        margin-left: 0px !important;
+    }
+
+    .para {
+        width: 75%;
+    }
+
+    .page {
+        background-color: var(--background-color);
+        overflow-y: auto;
+        height: 100dvh;
+        width: 100dvw;
+    }
+
+    /* .table,
+    thead {
+        display: none;
+    }
+
+    .table,
+    table tbody,
+    .table tr,
+    .table td {
+        display: block;
+        width: 100%;
+    }
+
+    .table tr {
+        margin-bottom: 15px;
+        border: 0.5px solid #f9f9f9;
+        padding: auto;
+    }
+
+    .table td {
+        text-align: right;
+        position: relative;
+        font-weight: 500;
+        border: none;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 4px;
+        font-weight: 300;
+    } */
+}

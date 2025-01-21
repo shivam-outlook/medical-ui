@@ -1,0 +1,16 @@
+@media screen and (min-width: 992px) {
+    .dropdown-menu.show {
+        margin-left: -7rem !important;
+    }
+
+    .para {
+        width: 75%;
+    }
+
+    .page {
+        background-color: var(--background-color);
+        overflow-y: auto;
+        height: 100dvh;
+        width: 100dvw;
+    }
+}
